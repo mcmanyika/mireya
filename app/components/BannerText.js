@@ -14,7 +14,7 @@ export default function BannerText() {
   };
 
   return (
-    <div className="flex items-center text-center w-1/3 mx-auto h-4/6">
+    <div className="flex items-center text-center md:w-1/3 md:mx-auto h-4/6">
         <div className='text-center text-5xl text-white font-thin'>
             <div className=' capitalize'>Your Global Partner in staffing solutions</div>
             <div className='p-2 md:p-5'>
