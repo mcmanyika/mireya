@@ -1,21 +1,41 @@
+'use client';
+import React, { useState } from 'react';
 import Image from 'next/image'
+import { setGlobalState, getGlobalState } from './store'
+import Layout from './components/Layout'
 import Header from './components/Header'
 import BannerText from './components/BannerText'
 import MiddleBanner from './components/MiddleBanner'
+import Content from './components/Content'
+import Team from './components/Team'
+import Services from './components/Services'
+import AllFaqs from './components/AllFaqs'
+import Footer from './components/Footer'
 
-export default function Home() {
+const Home = () => {
+  const isOpen = getGlobalState('isOpen');
+
+  const openNav = () => {
+    if (isOpen) {
+      setGlobalState('isOpen', true);
+    }
+  };
+
+  const closeNav = () => {
+    // setIsOpen(false);
+  };
   return (
-    <div
-      style={{
-        backgroundImage: "url('/assets/images/slide01.jpeg')",
-        backgroundSize: 'cover',
-        backgroundPosition: 'center',
-        width: '100%',
-        height: '100vh',
-      }}>
-        <Header />
-        <BannerText />
-        <MiddleBanner />
-    </div>
+    <Layout>
+      
+          <BannerText />
+          <MiddleBanner />
+          <Content />
+          <Services />
+          <Team />
+          <AllFaqs />
+          
+      
+    </Layout>
   )
 }
+export default Home

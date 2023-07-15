@@ -1,16 +1,27 @@
-import React from 'react'
+'use client';
+import React, { useState } from 'react';
+import Contact from './Contact'
 
 export default function BannerText() {
+  const [isOverlayVisible, setOverlayVisible] = useState(false);
+
+  const handleOverlayClick = () => {
+    setOverlayVisible(true);
+  };
+
+  const handleCloseOverlay = () => {
+    setOverlayVisible(false);
+  };
+
   return (
-    <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '70vh' }} className='w-1/3 mx-auto'>
-        <div style={{ textAlign: 'center' }} className=' text-5xl text-white font-thin'>
-            <div className=' capitalize'>Your Global Partner in customer service</div>
+    <div className="flex items-center text-center w-1/3 mx-auto h-4/6">
+        <div className='text-center text-5xl text-white font-thin'>
+            <div className=' capitalize'>Your Global Partner in staffing solutions</div>
             <div className='p-2 md:p-5'>
-                <button className=' border-2 border-white md:pl-7 md:pr-7 p-2 rounded-full text-xl capitalize'> Let us quote you</button>
+                <button className=' border-2 border-white hover:bg-white hover:text-black md:pl-7 md:pr-7 p-2 rounded-full text-xl capitalize' onClick={handleOverlayClick}> Become a client</button>
             </div>
         </div>
+        <Contact showOverlay={isOverlayVisible} onClose={handleCloseOverlay} />
     </div>
-
-
   )
 }

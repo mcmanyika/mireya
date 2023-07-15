@@ -15,13 +15,6 @@ module.exports = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
-      bannerImage: {
-        backgroundImage: "url('/assets/images/slide01.jpeg')",
-        backgroundSize: 'cover',
-        backgroundPosition: 'center',
-        width: '100%',
-        height: '100vh',
-      }
       
     },
   },
