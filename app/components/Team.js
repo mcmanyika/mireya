@@ -8,9 +8,6 @@ function Team() {
   return (
     <section id='team'>
         <div className='pt-40 md:pt-10 md:max-w-7xl mx-auto'>
-            {/* <div className='text-center text-xl text-gray-400 pb-4'>
-                
-            </div> */}
             <div className='md:flex items-center text-center mb-5 p-10'>
                 <div className='bg-gray-50 m-4'>
                     <Image src="/assets/images/p2.png" width={300} height={300} alt='' className='object-cover' />
