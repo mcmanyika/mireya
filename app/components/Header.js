@@ -4,7 +4,7 @@ import { FaTwitter, FaLinkedin } from "react-icons/fa";
 function Header() {
   return (
     <div className=' bg-slate-900 bg-opacity-70'>
-          <div className=' md:flex md:justify-between md:max-w-7xl md:mx-auto p-5 uppercase font-bold text-white text-center items-center'>
+          <div className=' bg-slate-900 bg-opacity-70 md:flex md:justify-between md:max-w-7xl md:mx-auto p-5 uppercase font-bold text-white text-center items-center'>
             <div className=' md:w-2/4'>
                 <div className=" text-left text-3xl">Mireya</div>
                 <div className="text-left text-sm font-thin">Business solutions</div>

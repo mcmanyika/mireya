@@ -28,7 +28,7 @@ function Team() {
                 <div className=' bg-gray-50 m-4'>
                     <Image src="/assets/images/p2.png" width={300} height={300} alt='' className='object-cover' />
                     <p className=' text-xl font-bold text-center text-gray-600 p-3  capitalize'>
-                        Vincent
+                        Gary
                     </p>
                     <p className=' text-gray-400'>Marketing</p>
                     <div className="flex p-4 pl-16 pr-16">
