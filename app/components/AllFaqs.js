@@ -5,7 +5,7 @@ import Image from 'next/image'
 function AllFaqs() {
   return (
     <div className='w-full bg-gray-50'>
-        <div className='md:max-w-7xl mx-auto p-12 bg-gray-50'>
+        <div className='md:max-w-7xl mx-auto md:p-12 bg-gray-50'>
             <div className='flex'>
                 <div className='md:flex-1'>
                     <p className='p-4  capitalize text-3xl text-yellow-500 font-bold'>FAQS</p>
