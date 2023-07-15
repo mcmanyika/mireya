@@ -9,6 +9,7 @@ import MiddleBanner from './components/MiddleBanner'
 import Content from './components/Content'
 import Team from './components/Team'
 import Services from './components/Services'
+import OnsiteHeader from './components/OnsiteHeader'
 import Onsite from './components/Onsite'
 import AllFaqs from './components/AllFaqs'
 import Footer from './components/Footer'
@@ -32,6 +33,7 @@ const Home = () => {
           <MiddleBanner />
           <Content />
           <Services />
+          <OnsiteHeader />
           <Onsite title='Sales' />
           <Onsite title='Virtual Assistance' />
           <Onsite title='Outbound' />
