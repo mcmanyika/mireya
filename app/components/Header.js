@@ -15,7 +15,9 @@ function Header() {
               </a>
             </div>
             <div className='hidden md:flex border-b-2 border-b-transparent hover:border-b-2 p-2 hover:border-b-yellow-500'>
+              <a href="#services">
               Services
+              </a>
             </div>
             <div className='hidden md:flex border-b-2 border-b-transparent hover:border-b-2 p-2 hover:border-b-yellow-500'> 
               <a href="#footer">

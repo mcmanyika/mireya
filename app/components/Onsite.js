@@ -1,6 +1,6 @@
 import { IoCheckmarkSharp } from "react-icons/io5";
 
-function Onsite({title}) {
+function Onsite({title, title2}) {
   return (
     <div className="bg-black">
         <div className='flex  text-white max-w-7xl mx-auto justify-between align-middle  items-center p-5'>

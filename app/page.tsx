@@ -1,5 +1,6 @@
 'use client';
 import React, { useState } from 'react';
+import { IoCheckmarkSharp } from "react-icons/io5";
 import Image from 'next/image'
 import { setGlobalState, getGlobalState } from './store'
 import Layout from './components/Layout'
@@ -34,14 +35,14 @@ const Home = () => {
           <Content />
           <Services />
           <OnsiteHeader />
-          <Onsite title='Sales' />
-          <Onsite title='Virtual Assistance' />
-          <Onsite title='Outbound' />
-          <Onsite title='Phone Support' />
-          <Onsite title='Scheduling' />
-          <Onsite title='Order Processing' />
-          <Onsite title='Logistics and Shipping' />
-          <Onsite title='Chat/Email and Webinar' />
+          <Onsite title='Sales' title2='IoCheckmarkSharp' />
+          <Onsite title='Virtual Assistance' title2='IoCheckmarkSharp' />
+          <Onsite title='Outbound' title2='IoCheckmarkSharp' />
+          <Onsite title='Phone Support' title2='IoCheckmarkSharp' />
+          <Onsite title='Scheduling' title2='IoCheckmarkSharp' />
+          <Onsite title='Order Processing' title2='IoCheckmarkSharp' />
+          <Onsite title='Logistics and Shipping' title2='IoCheckmarkSharp' />
+          <Onsite title='Chat/Email and Webinar' title2={`1`} />
           <Team />
           <AllFaqs />
           

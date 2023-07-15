@@ -22,13 +22,19 @@ function Footer() {
                                     Quick Links
                                 </div>
                                 <div>
+                                    <a href="#about">
                                     About Us
+                                    </a>
                                 </div>
                                 <div>
+                                    <a href="#services">
                                     Services
+                                    </a>
                                 </div>
                                 <div>
+                                    <a href="#team">
                                     Our Team
+                                    </a>
                                 </div>
                             </div>
                             
