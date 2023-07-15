@@ -15,8 +15,8 @@ function Layout(props) {
                     <Sidenav />
                 </div>
             )}
-            <div className='flex-1 bg-cover bg-center w-full h-screen'  style={{
-                backgroundImage: "url('/assets/images/slide01.jpeg')"}}>
+            <div className='flex-1 bg-contain bg-center bg-no-repeat w-full h-screen' style={{
+  backgroundImage: "url('/assets/images/slide01.jpeg')"}}>
             <Header />
             {props.children}
             <Join />
