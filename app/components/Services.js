@@ -2,7 +2,7 @@ import React from 'react'
 
 function Services() {
   return (
-    <div className=' bg-gray-50 p-4 mb-20'>
+    <div className=' bg-gray-50 p-4'>
         <div className='max-w-7xl mx-auto'>
             <div className='w-full text-4xl md:text-center p-5 text-yellow-500'>
                 Our Services
