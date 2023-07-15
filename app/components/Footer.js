@@ -11,10 +11,10 @@ function Footer() {
                     <div className="w-full md:flex">
                         <div className="hidden md:flex pt-4">
                             <div className="w-full p-2 text-gray-400 font-thin">Follow Mireya </div>
-                            <div className="w-9 p-2">
+                            {/* <div className="w-9 p-2">
                                 <BsFacebook size={26} className="text-gray-400" />
                             </div>
-                            <div className="w-9 p-2"><FaTwitter size={26} className="text-gray-400" /></div>
+                            <div className="w-9 p-2"><FaTwitter size={26} className="text-gray-400" /></div> */}
                             <div className="w-9 p-2"><FaLinkedin size={26} className="text-gray-400" /></div>
                             
                             <div className="w-full p-2 pl-20 text-gray-400 font-thin">

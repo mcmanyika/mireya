@@ -31,10 +31,10 @@ function Header() {
             <div className="flex w-full">
                 <div className="flex-1"></div>
                 <div className="flex">
-                    <div className="w-9">
+                    {/* <div className="w-9">
                         <BsFacebook size={26} className="text-gray-400" />
                     </div>
-                    <div className="w-9"><FaTwitter size={26} className="text-gray-400" /></div>
+                    <div className="w-9"><FaTwitter size={26} className="text-gray-400" /></div> */}
                     <div className="w-9"><FaLinkedin size={26} className="text-gray-400" /></div>
                 </div>
             </div>

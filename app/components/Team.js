@@ -14,7 +14,7 @@ function Team() {
                     <p className=' text-xl font-bold text-center text-gray-600 p-3  capitalize'>
                         Partson
                     </p>
-                    <p className=' text-gray-400'>Team Leader</p>
+                    <p className=' text-gray-400'>Marketing</p>
                     <div className="flex p-4 pl-16 pr-16">
                         <div className="mx-auto">
 
@@ -30,7 +30,7 @@ function Team() {
                     <p className=' text-xl font-bold text-center text-gray-600 p-3  capitalize'>
                         Vincent
                     </p>
-                    <p className=' text-gray-400'>Technology Officer</p>
+                    <p className=' text-gray-400'>Marketing</p>
                     <div className="flex p-4 pl-16 pr-16">
                         <div className="mx-auto">
                             <BsFacebook size={18} className="text-gray-400" />
@@ -44,7 +44,7 @@ function Team() {
                     <p className=' text-xl font-bold text-center text-gray-600 p-3  capitalize'>
                         Michael
                     </p>
-                    <p className=' text-gray-400'>Marketing Director</p>
+                    <p className=' text-gray-400'>Marketing</p>
                     <div className="flex p-4 pl-16 pr-16">
                         <div className="mx-auto">
                             <BsFacebook size={18} className="text-gray-400" />
@@ -58,7 +58,7 @@ function Team() {
                     <p className=' text-xl font-bold text-center text-gray-600 p-3  capitalize'>
                         Munashe 
                     </p>
-                    <p className=' text-gray-400'>Technical Director</p>
+                    <p className=' text-gray-400'>Marketing</p>
                     <div className="flex p-4 pl-16 pr-16">
                         <div className="mx-auto">
                             <BsFacebook size={18} className="text-gray-400" />
