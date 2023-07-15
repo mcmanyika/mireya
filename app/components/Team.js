@@ -14,7 +14,7 @@ function Team() {
                     <p className=' text-xl font-bold text-center text-gray-600 p-3  capitalize'>
                         Partson
                     </p>
-                    <p className=' text-gray-400'>CEO</p>
+                    <p className=' text-gray-400'>Team Leader</p>
                     <div className="flex p-4 pl-16 pr-16">
                         <div className="mx-auto">
 

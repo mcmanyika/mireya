@@ -40,7 +40,7 @@ function Footer() {
                                     1-800 8755 4545
                                 </div>
                                 <div>
-                                    marketing@mireya.com
+                                    marketing@mireya.online
                                 </div>
                             </div>
                             

@@ -1,0 +1,15 @@
+import { IoCheckmarkSharp } from "react-icons/io5";
+
+function Onsite({title}) {
+  return (
+    <div className='flex bg-black text-white max-w-7xl mx-auto justify-between align-middle  items-center p-5'>
+        <div className=" w-60 text-2xl">{title}</div>
+        <div><IoCheckmarkSharp size={40} className=" text-white"/></div>
+        <div><IoCheckmarkSharp size={40} className=" text-white"/></div>
+        <div><IoCheckmarkSharp size={40} className=" text-white"/></div>
+        <div><IoCheckmarkSharp size={40} className=" text-white"/></div>
+    </div>
+  )
+}
+
+export default Onsite;
