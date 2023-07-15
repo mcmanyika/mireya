@@ -11,11 +11,11 @@ function Layout(props) {
         <div className='flex'>
             
             {isOpen && (
-                <div className='flex-1'>
+                <div className='w-96'>
                     <Sidenav />
                 </div>
             )}
-            <div className='flex-1 bg-contain bg-center bg-no-repeat w-full h-screen' style={{
+            <div className='bg-contain bg-center bg-no-repeat w-full h-screen' style={{
   backgroundImage: "url('/assets/images/slide01.jpeg')"}}>
             <Header />
             {props.children}
