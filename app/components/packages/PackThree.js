@@ -6,7 +6,7 @@ function PackThree({title}) {
         <div className='flex  text-white max-w-7xl mx-auto justify-between align-middle  items-center p-5'>
         <div className=" w-60 text-2xl">{title}</div>
         <div></div>
-        <div><IoCheckmarkSharp size={40} className=" text-white"/></div>
+        <div><IoCheckmarkSharp size={35} className=" text-yellow-300"/></div>
         <div></div>
         <div></div>
       </div>
