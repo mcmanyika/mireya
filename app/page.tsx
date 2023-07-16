@@ -11,7 +11,8 @@ import Content from './components/Content'
 import Team from './components/Team'
 import Services from './components/Services'
 import OnsiteHeader from './components/OnsiteHeader'
-import Onsite from './components/Onsite'
+import Packages from './components/Packages'
+import Brands from './components/packages/Brands'
 import AllFaqs from './components/AllFaqs'
 import Footer from './components/Footer'
 
@@ -29,24 +30,15 @@ const Home = () => {
   };
   return (
     <Layout>
-      
-          <BannerText />
-          <MiddleBanner />
-          <Content />
-          <Services />
-          <OnsiteHeader />
-          <Onsite title='Sales' title2='IoCheckmarkSharp' />
-          <Onsite title='Virtual Assistance' title2='IoCheckmarkSharp' />
-          <Onsite title='Outbound' title2='IoCheckmarkSharp' />
-          <Onsite title='Phone Support' title2='IoCheckmarkSharp' />
-          <Onsite title='Scheduling' title2='IoCheckmarkSharp' />
-          <Onsite title='Order Processing' title2='IoCheckmarkSharp' />
-          <Onsite title='Logistics and Shipping' title2='IoCheckmarkSharp' />
-          <Onsite title='Chat/Email and Webinar' title2={`1`} />
-          <Team />
-          <AllFaqs />
-          
-      
+      <BannerText />
+      <MiddleBanner />
+      <Content />
+      <Services />
+      <OnsiteHeader />
+      <Packages />
+      <Brands />
+      <AllFaqs />
+      <Team />
     </Layout>
   )
 }

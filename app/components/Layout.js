@@ -15,7 +15,7 @@ function Layout(props) {
                     <Sidenav />
                 </div>
             )}
-            <div className='bg-contain bg-center bg-no-repeat w-full h-screen' style={{
+            <div className='bg-contain bg-center bg-no-repeat w-full max-h-screen ' style={{
   backgroundImage: "url('/assets/images/slide01.jpeg')"}}>
             <Header />
             {props.children}
