@@ -6,18 +6,18 @@ function Footer() {
   return (
     <slideInDown>
         <section id="footer">
-            <div className=" bg-gray-100 h-22 p-0">
-                <div className='w-full md:max-w-7xl mx-auto p-2'>
+            <div className=" bg-gray-100 h-22 p-0 w-full">
+                <div className='md:max-w-7xl mx-auto p-2'>
                     <div className="w-full md:flex">
-                        <div className="hidden md:flex pt-4">
-                            <div className="w-full p-2 text-gray-400 font-thin">Follow Mireya </div>
+                        <div className="hidden w-full md:flex pt-4">
+                            <div className=" w-96 p-2 text-gray-400 font-thin text-right">Follow Mireya </div>
                             {/* <div className="w-9 p-2">
                                 <BsFacebook size={26} className="text-gray-400" />
                             </div>
                             <div className="w-9 p-2"><FaTwitter size={26} className="text-gray-400" /></div> */}
-                            <div className="w-9 p-2"><FaLinkedin size={26} className="text-gray-400" /></div>
+                            <div className="w-10 p-2"><FaLinkedin size={26} className="text-gray-400" /></div>
                             
-                            <div className="w-full p-2 pl-20 text-gray-400 font-thin">
+                            <div className="w-96 p-2 pl-20 text-gray-400 font-thin">
                                 <div className="font-bold w-40">
                                     Quick Links
                                 </div>
@@ -38,8 +38,8 @@ function Footer() {
                                 </div>
                             </div>
                             
-                            <div className="w-full p-2  text-gray-400 font-thin">
-                                <div className=" font-bold">
+                            <div className="w-96 p-2  text-gray-400 font-thin">
+                                <div className="font-bold">
                                     Contact us On
                                 </div>
                                 <div>
@@ -47,6 +47,18 @@ function Footer() {
                                 </div>
                                 <div>
                                     marketing@mireya.online
+                                </div>
+                            </div>
+
+                            <div className="w-96 p-2  text-gray-400 font-thin">
+                                <div className=" font-bold">
+                                    Head Office
+                                </div>
+                                <div className="">
+                                    15848 Championship Pkwy
+                                </div>
+                                <div>
+                                    Fort Worth, Texas, USA
                                 </div>
                             </div>
                             
