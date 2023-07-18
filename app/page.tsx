@@ -8,7 +8,7 @@ import Header from './components/Header'
 import BannerText from './components/BannerText'
 import MiddleBanner from './components/MiddleBanner'
 import Content from './components/Content'
-import Team from './components/Team'
+// import Team from './components/Team'
 import Services from './components/Services'
 import OnsiteHeader from './components/OnsiteHeader'
 import Packages from './components/Packages'
@@ -38,7 +38,7 @@ const Home = () => {
       <Packages />
       <Brands />
       <AllFaqs />
-      <Team />
+      {/* <Team /> */}
     </Layout>
   )
 }
